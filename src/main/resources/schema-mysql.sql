@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS USERS;
+
+CREATE TABLE USERS (
+  id BIGINT NOT NULL AUTO_INCREMENT,
+  first_name VARCHAR(60) NOT NULL,
+  last_name VARCHAR(60) NOT NULL,
+  PRIMARY KEY (id)
+) engine=InnoDB default charset=utf8;
